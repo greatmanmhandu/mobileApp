@@ -1,0 +1,263 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'lightgray',
+    marginTop: 30,
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  switchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'green',
+    justifyContent: 'center',
+    height: 73,
+    paddingBottom: 10,
+  },
+  drawerButton: {
+    position: 'absolute',
+    top: 20,
+    left: 0,
+    zIndex: 1,
+    padding: 2,
+  },
+  drawerNavButton: {
+    position: 'absolute',
+    top: 1,
+    left: 0,
+    zIndex: 1,
+    padding: 2,
+  },
+  iconMenu: {
+    marginLeft: 50,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 1,
+    marginTop: 28,
+    color: 'white',
+    alignSelf: 'center',
+  },
+  listContainer: {
+    paddingHorizontal: 10,
+    marginTop: 15,
+  },
+  card: {
+    backgroundColor: 'white',
+    borderRadius: 10,
+    padding: 5,
+    marginBottom: 5,
+    width: '100%',
+  },
+  imageContainer: {
+    alignItems: 'flex-start',
+    marginBottom: 0,
+  },
+  wrapperContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 0,
+    paddingBottom: 5,
+    paddingTop:5,
+  },
+  image: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    marginRight: 10,
+    marginBottom: 2,
+  },
+  image2: {
+    width: 300,
+    height: 150,
+    borderRadius: 2,
+    marginRight: 10,
+    marginBottom: 0,
+    marginTop: 15,
+    padding: 10,
+  },
+  detailsContainer: {
+    marginLeft: 20,
+    flex: 1,
+  },
+  fromLocationContainer: {
+    marginLeft: 0,
+  },
+  toLocationContainer: {
+    marginLeft: 0,
+  },
+  subDetailsContainer: {
+    marginTop: 10,
+  },
+  fromLocation: {
+    marginBottom: 0,
+    fontWeight: 'bold',
+    fontSize: 13,
+  },
+  name: {
+    fontWeight: 'bold',
+    fontSize: 8,
+  },
+  toLocation: {
+    marginBottom: 0,
+    fontSize: 11,
+  },
+  amount: {
+    marginTop: 0,
+    fontWeight: 'bold',
+    fontSize: 13,
+  },
+  description: {
+    marginTop: 0,
+    fontWeight: 'bold',
+    fontSize: 11,
+  },
+  time: {
+    color: 'gray',
+    fontSize: 8,
+  },
+  distance: {
+    color: 'red',
+    fontSize: 12,
+  },
+  tone: {
+    color: 'black',
+    fontWeight: 'bold',
+    fontSize: 8,
+  },
+  drawerContainer: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    marginTop: 74,
+    marginLeft: 2,
+    marginRight: 10,
+    borderRadius: 10,
+    width: '98%', // Set the width to occupy 50% of the screen
+    height: '68%',
+    backgroundColor: 'gray',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 30,
+  },
+  hireTruckButton: {
+    backgroundColor: 'green',
+    width: '100%',
+    height: 50,
+    borderRadius: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+    marginTop: 30,
+  },
+  acceptButton: {
+    backgroundColor: 'green',
+  },
+  rejectButton: {
+    backgroundColor: 'darkred',
+  },
+  drawerButtons: {
+    backgroundColor: 'gray',
+    borderColor: 'darkred',
+    borderTopWidth: 2,
+    width: '100%',
+    height: 50,
+    borderRadius: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 5,
+    marginBottom: 10,
+  },
+  drawerButtons2: {
+    backgroundColor: 'gray',
+    borderColor: 'darkred',
+    borderTopWidth: 2,
+    borderBottomWidth: 2,
+    width: '100%',
+    height: 60,
+    borderRadius: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 10,
+  },
+  closeButtonDrawer: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    zIndex: 1,
+    padding: 1,
+  },
+  drawerImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 75,
+    marginBottom: 80,
+  },
+
+  drawerButtonText: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  drawerButtonText2: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  // overlay: {
+  //   // ...StyleSheet.absoluteFillObject,
+  //   // backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  //   // zIndex: 0,
+  // },
+  modalContainer: {
+    flex: 1,
+    // alignItems: 'center',
+    // justifyContent: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  modalContent: {
+    backgroundColor: 'gray',
+    padding: 20,
+    borderRadius: 5,
+    // alignItems: 'center',
+    // justifyContent: 'center',
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+  },
+  closeButton: {
+    marginTop: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    backgroundColor: 'green',
+    borderRadius: 5,
+  },
+  closeButtonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  button: {
+    flex: 1,
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: 'white',
+    backgroundColor: 'transparent',
+  },
+
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: '#E72929',
+    justifyContent: 'center',
+    alignItems: 'center',
+},
+
+});

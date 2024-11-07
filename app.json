@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "E-H-PN-P",
+    "slug": "cash-collection-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/pregaz.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.greatmanmhandu.CashCollectionMobileApp"
+    },
+    "android": {
+      "permissions": ["android.permission.INTERNET"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.greatmanmhandu.CashCollectionMobileApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-build-properties",
+      "expo-secure-store",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d4f402df-37d9-4513-9495-3eb697ff2824"
+      }
+    },
+    "owner": "gman01"
+  }
+}
